@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>مشروع المنظف الذكي</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f4f9f9; padding: 20px; }
+        .box { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        button { background: #38b2ac; color: white; border: none; padding: 10px; border-radius: 5px; width: 100%; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>ذكاء اصطناعي للعناية بالبشرة</h2>
+        <p>حدد نوع بشرتك:</p>
+        <select id="type" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+            <option value="دهنية">دهنية</option>
+            <option value="جافة">جافة</option>
+        </select>
+        <button onclick="show()">أعطني المنظف المناسب</button>
+        <p id="result" style="margin-top: 20px; font-weight: bold; color: #2c7a7b;"></p>
+    </div>
 
+    <script>
+        function show() {
+            var t = document.getElementById("type").value;
+            var r = document.getElementById("result");
+            if(t == "دهنية") r.innerText = "المنظف المقترح: جل رغوي بالزنك.";
+            else r.innerText = "المنظف المقترح: حليب منظف مرطب.";
+        }
+    </script>
+</body>
+</html>
