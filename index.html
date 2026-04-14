@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SkinCare Pro</title>
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:linear-gradient(135deg,#ffd6e7,#ffeef5);
+color:#333;
+}
+header{
+background:#ff4d88;
+color:white;
+padding:20px;
+text-align:center;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+}
+header h1{margin:0;font-size:28px;}
+header p{margin:5px 0 0;}
+.container{
+padding:20px;
+max-width:1000px;
+margin:auto;
+}
+.card{
+background:white;
+padding:15px;
+border-radius:15px;
+margin:15px 0;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+button{
+background:#ff4d88;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:10px;
+cursor:pointer;
+}
+button:hover{
+background:#e63e77;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+}
+.skin-type{
+cursor:pointer;
+padding:10px;
+border-radius:10px;
+background:#fff0f5;
+text-align:center;
+}
+.skin-type:hover{
+background:#ffd6e7;
+}
+#result{
+margin-top:10px;
+font-weight:bold;
+}
+footer{
+text-align:center;
+padding:15px;
+margin-top:20px;
+color:#777;
+}
+</style>
+</head>
+<body><header>
+<h1>🌸 SkinCare Pro</h1>
+<p>Your smart skincare guide ✨</p>
+</header><div class="container"><div class="card">
+<h2>✨ Discover Your Skin Type</h2>
+<p>Click on a type to see advice:</p><div class="grid">
+<div class="skin-type" onclick="showTip('oily')">🌿 Oily Skin</div>
+<div class="skin-type" onclick="showTip('dry')">💧 Dry Skin</div>
+<div class="skin-type" onclick="showTip('combo')">⚖️ Combination</div>
+<div class="skin-type" onclick="showTip('sensitive')">🌸 Sensitive</div>
+</div><div id="result"></div>
+</div><div class="card">
+<h2>🧴 Daily Routine</h2>
+<ul>
+<li>Morning: Cleanser → Moisturizer → Sunscreen ☀️</li>
+<li>Night: Cleanser → Serum → Night Cream 🌙</li>
+</ul>
+</div><div class="card">
+<h2>💖 Tips</h2>
+<p>Drink water 💧, avoid touching your face, and use gentle products.</p>
+</div></div><footer>
+Made with 💖 by Ayaa Kh
+</footer><script>
+function showTip(type){
+let msg="";
+if(type==='oily') msg="Use oil-free products and wash twice daily 🌿";
+if(type==='dry') msg="Use hydrating creams and drink more water 💧";
+if(type==='combo') msg="Balance oily and dry areas with light products ⚖️";
+if(type==='sensitive') msg="Avoid harsh chemicals and use gentle skincare 🌸";
+document.getElementById('result').innerText=msg;
+}
+</script></body>
+</html>
