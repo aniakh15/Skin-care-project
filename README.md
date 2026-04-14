@@ -64,6 +64,29 @@ This project is designed to be:
 🌸 Author
 
 Created with love by Ayaa Kh 💖
+<h1 align="center" style="color:#ff4da6;">
+🌸 Pink Skin Care Project
+</h1>
+
+<p align="center" style="color:#ff66b3;">
+Glow naturally • Feel confident • Love your skin
+</p>
+
+---
+
+## 💖 About
+
+Beautiful skincare website with pink aesthetic design  
+Helping you build the perfect skincare routine
+
+---
+
+## ✨ Features
+
+🌸 Pink design  
+💄 Beauty tips  
+🧴 Skin routines  
+✨ Clean layout
 
 ---
 
