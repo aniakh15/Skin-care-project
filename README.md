@@ -1,78 +1,77 @@
-# Skin-care-project
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pink Skin Care</title>
+🌸 Skin Care Project
 
-<style>
-body{
-font-family: Arial;
-background: #ffe6f0;
-margin:0;
-padding:0;
-text-align:center;
-}
+Welcome to Skin Care Project — your beautiful space for glowing, healthy, and confident skin ✨
 
-header{
-background:#ff99cc;
-color:white;
-padding:20px;
-font-size:25px;
-}
+💖 About The Project
 
-.card{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:15px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
+This project is a modern and elegant skincare website designed to help users:
 
-button{
-background:#ff66a3;
-color:white;
-border:none;
-padding:10px 20px;
-border-radius:10px;
-font-size:16px;
-}
+- Discover skincare products
+- Learn skincare routines
+- Improve skin health
+- Find beauty tips
 
-footer{
-background:#ff99cc;
-color:white;
-padding:15px;
-margin-top:20px;
-}
-</style>
+Our goal is simple:
+Healthy skin. Natural beauty. Real confidence.
 
-</head>
+---
 
-<body>
+✨ Features
 
-<header>
-🌸 Pink Skin Care
-</header>
+🌸 Beautiful pink aesthetic design
+💄 Skincare product showcase
+🧴 Daily skincare routine tips
+✨ Clean and modern layout
+📱 Mobile-friendly design
 
-<div class="card">
-<h2>✨ نصائح العناية بالبشرة</h2>
-<p>اشربي الماء يومياً</p>
-<p>استعملي واقي الشمس</p>
-<p>نظفي بشرتك صباحاً ومساءً</p>
-<button>ابدئي الآن</button>
-</div>
+---
 
-<div class="card">
-<h2>💄 أنواع البشرة</h2>
-<p>بشرة دهنية</p>
-<p>بشرة مختلطة</p>
-<p>بشرة جافة</p>
-</div>
+🛠️ Built With
 
-<footer>
-🌸 مشروع العناية بالبشرة الوردي
-</footer>
+- HTML
+- CSS
+- GitHub Pages
 
-</body>
-</html>
+---
+
+🌷 Preview
+
+Coming Soon...
+
+---
+
+💕 Why This Project?
+
+Because skincare is not just beauty — it's self-care and confidence.
+
+This project is designed to be:
+
+- Simple
+- Elegant
+- Inspiring
+
+---
+
+🌼 Future Improvements
+
+- Add skincare product gallery
+- Add skin type quiz
+- Add beauty blog
+- Add contact section
+
+---
+
+🌸 Author
+
+Created with love by Ayaa Kh 💖
+
+---
+
+⭐ Support
+
+If you like this project, give it a star ⭐
+It helps and motivates me to create more beautiful projects.
+
+---
+
+💗 Glow naturally. Feel confident. Be beautiful.
